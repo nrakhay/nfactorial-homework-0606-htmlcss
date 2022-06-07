@@ -1,0 +1,149 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+  
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redExample {
+    flex: 1;
+    background-color: red;
+  }
+  
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  
+  .blueExample2 {
+    width: 80px;
+    background-color: blue;
+  }
+  
+  /* TODO: Add CSS for the rest of your solution below */
+
+.empty3{
+    display:flex;
+    justify-content: space-between;
+    flex:1;
+}
+
+.red3{
+    background-color:red;
+    width:80px;
+}
+
+.blue3{
+    background-color:blue;
+    width:80px;
+}
+
+
+.red4{
+    flex:1;
+    background-color:red;
+}
+
+.blue4{
+    background-color:blue;
+    width:80px;
+}
+
+.container5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+
+.red5{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.container6{
+    display: flex;
+    flex:1
+}
+
+.red6{
+    flex:1;
+    background-color: red;
+}
+
+.blue6{
+    width:80px;
+    background-color: blue;
+}
+
+.overall{
+    display: flex;
+    flex:1
+}
+
+.red7{
+    width: 80px;
+    background-color: red;
+}
+
+
+.container7{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blue7{
+    background-color: blue;
+    height: 33%;
+}
+
+.container8{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+}
+
+.yellow8{
+    width: 80px;
+    background-color: yellow;
+}
+
+.container9{
+    display: flex;
+    flex:1;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+.yellow9{
+    flex:1;
+
+    background-color: yellow;
+}
+
+
+
